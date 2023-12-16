@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet">
+  <title>Accueil</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about-me">Welcome Page</a></li>
+            <li><a href="#education">Academic Curriculum</a></li>
+            <li><a href="#work-experience">Experiences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <section>
+    <h2>Hi, I'm Med Yassine Zaghdoud</h2>
+    <p>Welcome to my portfolio. Here you can learn more about my academic background, professional experiences, and get in touch with me.</p>
+  </section>
+
+  <img id="yass" src="yass.jpg">
+  
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p>I'm Zaghdoud Med Yassine, a mechanical engineering enthusiast with a passion for innovation and problem-solving. I hold a National Degree in Mechanical Engineering and have gained practical experience through internships at Tunisair Technics and Mersen. My skills include mechanical design, production management, and material strength calculations. I'm proficient in both French and English, making me an effective communicator in multicultural environments</p>
+  </section>
+
+  <section id="download-cv">
+    <h2>Download CV</h2>
+    <p>Click the button below to download my CV:</p>
+    <a href="CV.pdf" download="CV.pdf" class="button">Download CV</a>
+  </section>
+  
+  
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+      <li>
+          <strong>Baccalauréat Science Technique</strong>
+          <br>June 2019, Lycée Ibn Khaldoun, Tunis
+          <br>Mention: Passable
+      </li>
+      <li>
+          <strong>National Degree in Mechanical Engineering</strong>
+          <br>June 2022, Higher Institute of Technological Studies, Bizerte
+          <br>Specialization: Mechanical Design and Fabrication
+          <ul>
+              <li>Mechanical Design</li>
+              <li>Production and Quality Management</li>
+              <li>Material Strength Calculations</li>
+              <li>Automation and Mechanical Construction</li>
+              <li>Production Management</li>
+              <li>Material Science</li>
+          </ul>
+      </li>
+  </ul>
+</section>
+
+
+<section id="work-experience">
+  <h2>Work Experience</h2>
+  <ul>
+      <li>
+          <strong>Tunisair Technics</strong> - Initialisation Internship
+          <br>Jan 2020 - Feb 2020
+          <ul>
+              <li>Engine revision and maintenance tasks.</li>
+              <li>Non-Destructive Testing (NDT) and inspections.</li>
+              <li>Repair of various aircraft structures (Plasturgy).</li>
+          </ul>
+      </li>
+      <li>
+          <strong>Tunisair Technics</strong> - Advanced Internship
+          <br>Jul 2021 - Aug 2021
+          <ul>
+              <li>Improvement of an electropump's sealing.</li>
+              <li>Assembly and disassembly of a hydraulic pump.</li>
+              <li>Control and parameter checks of a pump.</li>
+          </ul>
+      </li>
+      <li>
+          <strong>Mersen</strong> - Final Year Project Internship
+          <br>Feb 2022 - May 2022
+          <ul>
+              <li>Design and modeling of a sandblasting machine.</li>
+              <li>Vibratory calculations and analysis.</li>
+              <li>Selection of vibratory motor and sand pump.</li>
+          </ul>
+      </li>
+  </ul>
+</section>
+<section id="certificates">
+  <h2>Certificates</h2>
+  <ul>
+      <li>ISO 9001 Quality Management</li>
+      <li>Microsoft Office Specialist (MOS): Word, Excel</li>
+  </ul>
+</section>
+
+<section id="languages">
+  <h2>Languages</h2>
+  <ul>
+      <li>English: Intermediate</li>
+      <li>French: Good</li>
+      <li>Italian: Beginner</li>
+  </ul>
+</section>
+
+<section id="hire-me">
+  <h2>Hire Me</h2>
+  <p>If you'd like to work with me, please fill out the form below:</p>
+  
+  <form id="hire-me-form" action="submit_form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <input type="submit" class="button" value="Contact Me">
+  </form>
+</section>
+
+<button id="scroll-to-top" title="Scroll to Top">↑</button>
+
+
+<footer>
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: Zaghdoudyassine9@gmail.com</p>
+    <p>Phone: +216 26246475</p>
+    <p>Address:  Ariana, Tunisia</p>
+  </div>
+</footer>
+
+<footer id="copyright">
+  <div class="row">
+    <div class="col-twelve">
+      <p>&copy; 2023 Med Yassine Zaghdoud. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js">
+
+</script>
+</body>
+</html>
